@@ -63,7 +63,7 @@
             ]
           },
           "Source": {
-            "Location": "https://github.com/bmwitcher/tfcicd.git",
+            "Location": "https://github.com/bmwitcher/tfcicd",
             "Type": "GITHUB"
           },
           "TimeoutInMinutes": 10,
