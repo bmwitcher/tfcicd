@@ -15,7 +15,7 @@ destroy = sys.argv[3]
 
 mycommands = ["terraform"]
 
-if destroy == "True":
+if destroy == "True": #when changing this variable in CodeBuild it must be a capital "T for true" or it will not work
     mycommands.extend(["destroy","--force"])
 else:
     mycommands.extend(["apply","-auto-approve"])
